@@ -3,6 +3,10 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
 html {
 color: #333;
 font-size: 62.5%;
@@ -103,4 +107,23 @@ background-color: #1ac7b6;
 
 .spacer {
 margin-top: 36px;
+}
+
+.register-question, .login-question {
+    font-size: 15px;
+    font-style: italic; }
+  
+  .register-question a {
+    color: dodgerblue; }
+  
+  .link-to-register {
+    font-style: normal !important;
+    color: dodgerblue; }
+
+.pull-right {
+    text-align: right;
+}
+
+.pull-left {
+    text-align: left;
 }
